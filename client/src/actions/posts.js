@@ -2,7 +2,7 @@
 import * as api from '../api'
 
 // Action Creators 
-
+// The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains.
 export const getPosts = () => async (dispatch) => {
     try {
 
@@ -12,7 +12,4 @@ export const getPosts = () => async (dispatch) => {
     } catch (error) {
         console.log(error.message)
     }
-
-
-    dispatch(action)
-}
+}        

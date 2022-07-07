@@ -1,8 +1,12 @@
 client:
+After clone install next packages:
+
 npm install
-npm start
 npm install @material-ui/core
-npm install react-redux
+npm install redux react-redux
+npm install redux-thunk
+
+npm start
 
 server:
 npm init -y
