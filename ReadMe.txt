@@ -1,12 +1,12 @@
 client:
-npx create-react-app ./
-
+npm install
+npm start
 
 
 server:
 npm init -y
 npm install body-parser cors express mongoose nodemon
-
+npm start
 
 
 
