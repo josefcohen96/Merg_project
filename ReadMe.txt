@@ -1,7 +1,8 @@
 client:
 npm install
 npm start
-
+npm install @material-ui/core
+npm install react-redux
 
 server:
 npm init -y
