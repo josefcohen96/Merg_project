@@ -8,8 +8,14 @@ import rootReducer from './reducers'
 import App from './App';
 import { createRoot } from 'react-dom/client';
 
-
 const store = configureStore({reducer: rootReducer})
+// const container = document.getElementById('root');
+// const root = createRoot(container); // createRoot(container!) if you use TypeScript
+// root.render(    
+//     <Provider store={store}>
+//         <App />
+//     </Provider>
+    // );
 
 
 ReactDOM.render(
@@ -18,6 +24,6 @@ ReactDOM.render(
     </Provider>
     , document.getElementById('root'))
 
-// const container = document.getElementById('root');
+const container = document.getElementById('');
 // const root = createRoot(container); // createRoot(container!) if you use TypeScript
 // root.render(<App tab="home" />);

@@ -9,8 +9,9 @@ import Form from './components/Form/Form';
 import useStyles from './styles'
 
 const App = () => {
-    const classes = useStyles();
+    
     const dispatch = useDispatch();
+    const classes = useStyles();
 
     useEffect(() => {
         dispatch(getPosts());
